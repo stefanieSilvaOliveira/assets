@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Convert Currency</title>
+    </head>
+
+    <body>
+    <img class="imagem-inicial" src="./money.gif" alt="foto-inicial">
+
+    <main>
+           <label>
+            <b> Converter de </b>
+            <select>
+                <option>R$ Real brasileiro</option>
+           </label>
+        </select>
+           
+           <label>
+            <b> Converter Para </b>
+            <select class="currency-select">
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+           </label>
+        </select>
+           
+            <label>
+                <b>Valor</b>
+                <input class="input-currency" placeholder="R$ 10.000,00">
+            </label>
+
+            <button class="convert-button"><b>Converter</b></button>
+
+            <section>
+                <div class="currency-box">
+                    <img src="./brasil 2.png" alt="moeda-do-brasil">
+                    <p class="currency">Real</p>
+                    <p class="currency-value-to-convert">R$ 0,0</p>
+                </div>
+
+                <img class="seta-img" src="./seta-verde.png">
+                
+                <div class="currency-box">
+                    <img class="currency-image" src="./estados-unidos (1) 1.png" alt="dolar-americado">
+                    <p class="currency"id="currency-name">US$Dolar</p>
+                    <p class="currency-value">R$ 0,0</p>
+                </div>
+            </section>
+    </main>
+
+</body>
+<script src="arquivo.js"></script>
+
+</html>
